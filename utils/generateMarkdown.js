@@ -736,8 +736,8 @@ const generateMarkdown = ({ name, email, github, title, license, description, in
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
-  - [Credits](#credits)
   - [License](#license)
+  - [Questions](#questions?)
   
   ## Installation
   

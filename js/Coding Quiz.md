@@ -4,23 +4,23 @@
   
   ## Description
   
-  To provide junior developers with a quiz to test their knowledge
+  To create a web app for junior developers to test their coding knowledge!
   
   ## Table Of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
-  - [Credits](#credits)
   - [License](#license)
+  - [Questions](#questions?)
   
   ## Installation
   
-  Open the webpage through my Github Repo and Have Fun!
+  Go to my GitHub repo and access the website from there
   
   ## Usage
   
-  Start quiz and try to finish before the time runs out! Then log your initials into the high score section!
+  This app is a timed quiz starting with 90 seconds. If you get a question wrong then 15 seconds are taken from the time left. When you finish the quiz the time remaining is used as the score and you can log your score with your initials. 
   
   ![ScreenShot of My Program](../style/images/Screenshot.png)
 
@@ -68,7 +68,7 @@
   
   #### Enforcement
   
-  Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at Paige.El.Olsen@Gmail.Com. All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+  Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at Paige.El.Olsen@gmail.com. All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
   
   #### Enforcement Guidelines
   
@@ -130,4 +130,4 @@
 
   [Github](https://github.com/POlsen-92) 
 
-  [Email](Paige.El.Olsen@Gmail.Com)
+  [Email](Paige.El.Olsen@gmail.com)
