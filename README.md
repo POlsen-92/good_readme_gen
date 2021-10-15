@@ -1,31 +1,27 @@
 # 09 Professional README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
+feature project 1 in this course along with 3 other homework assignments. For the work features the photos 
+<pre>
+	The goal for this project was to utilize our understanding of node and command line applications which 
+accept user input. To complete the assignment we had to create a number of command line prompts which would
+log our response and then input them into their proper place within a markdown skeleton using Javascript.
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+	Thus, creating a concise, professional ReadMe for developers to use. This app is designed to decrease
+the amount of time a developer needs to take on producing a readme and can also be used to get responses 
+from developers that contributed to a project.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+	Below you can see an image link which will take you to a video walkthrough of the ReadMe generator so you 
+can see how it works and try it for yourself. There are several licenses to choose from and more can easily 
+be added using the key, value based function that I used. By giving your Github username and email the 
+generator will create working links. If one wants to provide a personal photo and screenshot of their app
+they can also do so. Once the markdown document is created it will be named based off the title you gave 
+the project so that it can be easily found and all of the links within the table of contents work.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+</pre>
 
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
-
-
-## User Story
-
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
+## Homework Requirements
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -45,67 +41,42 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Getting Started
+## Video of ReadMe Generator
 
-Here are some guidelines to help you get started:
+<a href="https://drive.google.com/file/d/1fa_SsJXRPOx71Fzyj10yORrm9J1CvMuF/view?usp=sharing" title="Walk-Through"><img src="./style/images/readme_ss.png" alt="ReadMe Generator Walk Through" width="500px"/></a>
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+## Credits
+Built with [Javascript](https://www.javascript.com/)
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+NPMs used [Inquirer](https://www.npmjs.com/package/inquirer) and [Fs](https://www.npmjs.com/package/file-system)
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+## License
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+MIT License
 
-## Grading Requirements
+    Copyright (c) [2021] [Paige Olsen]
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-This homework is graded based on the following criteria: 
+## Creator
 
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+<img src="./style/images/cover_photo.jpg" width="100px"> <br>
+Paige Olsen
+[Github](https://github.com/POlsen-92) ,
+[LinkedIn](https://www.linkedin.com/in/paige-olsen-2aba9685/)
